@@ -14,3 +14,15 @@ class ChoresList extends React.Component {
 }
 
 export default ChoresList
+
+
+/*
+let choreArray = ["chore1", "chore2"]
+
+const ChoresList = ()=>{
+
+  {choreArray.map((chore, index))}?????
+}
+
+
+*/

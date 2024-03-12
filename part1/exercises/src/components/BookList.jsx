@@ -12,9 +12,9 @@ class BookList extends React.Component {
     return (
       <div className={classes.BookList}>
         <h3>{pageTitle}</h3>
-        <img src={book1} alt="The Scarlet Pimpernel by Baroness Orczy" />
-        <img src={book2} alt="The Count of Monte Cristo by Alexandre Dumas" />
-        <img src={book3} alt="The Lord of the Rings by J.R.R. Tolkien" />
+        <img style={{maxHeight: "300px"}} src={book1} alt="The Scarlet Pimpernel by Baroness Orczy" />
+        <img style={{maxHeight: "300px"}} src={book2} alt="The Count of Monte Cristo by Alexandre Dumas" />
+        <img style={{maxHeight: "300px"}} src={book3} alt="The Lord of the Rings by J.R.R. Tolkien" />
       </div>
     );
   }
