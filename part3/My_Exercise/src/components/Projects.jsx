@@ -19,6 +19,7 @@ function MyProjects() {
 
   return (
     <div>
+      <h2>Projects:</h2>
       <img src={book.img} alt={book.alt} style={{ maxHeight: "300px" }}></img>
       <p>Purpose: {book.type}</p>
       <p>Author(s): {book.authors}</p>
