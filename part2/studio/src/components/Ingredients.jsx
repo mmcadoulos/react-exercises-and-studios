@@ -18,6 +18,14 @@ function IngredientList() {
           ))}
         </ul>
       ))} */}
+      
+      
+      {/* TEST WHY THIS DOESN'T WORK */}
+      {/* {recipedata.map((recipe, index) => {
+        recipe.ingredients.map((ingredient, i) => {
+         <li key={i}>{ingredient}</li>;
+        });
+      })} */}
     </div>
   );
 }
