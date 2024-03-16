@@ -1,0 +1,34 @@
+{
+  "projects": [
+    {
+        "authors": "Martinez",
+        "type": "Comprehensible Input",
+        "img": "https://images-eu.ssl-images-amazon.com/images/I/91vphA-CqxL._AC_UL600_SR600,600_.jpg",
+        "alt": "ΛΟΓΟΣ cover"
+    },
+    {
+        "authors": "Gilbert Lawall , Luigi Miraglia , Maurice Balme, T.F. Borri",
+        "type": "Comprehensible Input",
+        "img": "https://m.media-amazon.com/images/I/71s0-vBX8nL._SL1500_.jpg",
+        "alt": "Athenaze Book 1"
+    },
+    {
+        "authors": "Gilbert Lawall , Luigi Miraglia , Maurice Balme, T.F. Borri",
+        "type": "Comprehensible Input",
+        "img": "https://m.media-amazon.com/images/I/81uuKGlwBrL._SL1500_.jpg",
+        "alt": "Athenaze Book 2"
+    },
+    {
+        "authors": "Joint Association of Classical Teachers",
+        "type": "Comprehensible Input",
+        "img": "https://m.media-amazon.com/images/I/71IbcTA12OL._SL1360_.jpg",
+        "alt": "Reading Greek"
+    },
+    {
+        "authors": "Me",
+        "type": "Composition",
+        "img": "tbd",
+        "alt": "Μωϋσῆς καὶ Ὁ Φρῦνος"
+    }
+  ]
+}
