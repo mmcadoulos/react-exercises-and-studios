@@ -1,24 +1,32 @@
-import { useState } from 'react';
+import { useState } from "react";
 
-export default function StatusChange () {
+export default function StatusChange() {
+  const [notes, setNotes] = useState("");
 
-   const handleChange = (event) => {
-   }
+  const [recipeStatus, setStatus] = useState(false);
 
-   const handleSubmit = (event) => {
-   }
+  const handleChange = (event) => {
+   setNotes(event.target.value);
+  };
 
-   return (
-      <div style={{paddingTop: "50px"}}>
-         <form onSubmit={handleSubmit}>
-            <label>Have you tried this recipe? Add your notes here: <input type="text" value={notes} onChange={handleChange} />
-            </label>
-            <input type="submit" />
-         </form>
+  const handleSubmit = (event) => {
+   event.preventDefault();
+   setStatus(true);  
+  };
 
-         <p>My Recipe Notes aren't here!</p>
+  return (
+    <div style={{ paddingTop: "50px" }}>
+      <form onSubmit={handleSubmit}>
+        <label>
+          Have you tried this recipe? Add your notes here:{" "}
+          <input type="text" value={notes} onChange={handleChange} />
+        </label>
+        <input type="submit" value={"Submit!"}/>
+      </form>
 
-         <p>I have not tried this recipe!</p>
-      </div>
-   );
+      <p>{notes}</p>
+
+      {recipeStatus ? <p>Recipe Saved!</p> : <p>I have not tried this recipe!</p>}
+    </div>
+  );
 }
